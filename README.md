@@ -8,7 +8,7 @@
 
 项目灵感来自`Ant Design`，在空余，花了一些时间基于 `react` 和 `Ant Design` 的开发的一款简单漂亮的后台系统`demo`。
 
-后端因时间比较匆促+个人技术有限，很多假象未实现，也影响了一些前端功能，还是挺小遗憾，后期可能会继续完善。
+后端因时间比较匆促+个人技术有限，很多假想未实现，也影响了一些前端功能，还是挺小遗憾，后期可能会继续完善。
 
 以及项目中肯定有做的不够好的地方，欢迎各位同好提 `pr` 或 `issue`，在这里向大佬致敬！
 
@@ -18,19 +18,19 @@
 
 **首页**
 
-![react-admin](D:\openSource\react-admin\react-hwj-admin\showPic\react-admin.png)
+![react-admin](https://github.com/Culaccino9/react-hwj-admin/blob/main/showPic/react-admin-goods.png)
 
 
 
 **商品**
 
-![react-admin-goods](D:\openSource\react-admin\react-hwj-admin\showPic\react-admin-goods.png)
+![react-admin-goods](https://github.com/Culaccino9/react-hwj-admin/blob/main/showPic/react-admin-user.png)
 
 
 
 **个人信息**
 
-![react-admin-user](D:\openSource\react-admin\react-hwj-admin\showPic\react-admin-user.png)
+![react-admin-user](https://github.com/Culaccino9/react-hwj-admin/blob/main/showPic/react-admin.png)
 
 
 
