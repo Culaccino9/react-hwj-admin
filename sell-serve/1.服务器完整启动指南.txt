@@ -1,0 +1,17 @@
+服务器分为2部分： 服务器，  数据库   
+	            sell-serve        mysql
+
+
+1. 启动服务器
+	1. 先安装服务器依赖
+		CMD -> yarn 
+	2. yarn start 启动服务器（服务器默认端口3000）
+
+2. 启动数据库
+	2.1 打包navicat可视化，新建数据库： sell （名字不要变名字不要变！！就叫sell）
+		字符集：   utf8 -- UTF-8 Unicode
+		排序规则：utf8_general_ci
+
+	2.2 打开查询， 点击新建查询， 复制2.建表sql内所有代码， 点击运行 （运行完sql，刷新一下表即可！）
+
+3. postman正常测试接口，axios发送请求调用接口

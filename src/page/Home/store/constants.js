@@ -1,0 +1,1 @@
+export const UPDATA_HOMEDATA = 'home/UPDATA_HOMEDATA'

@@ -1,0 +1,3 @@
+export const UPDATA_ORDER_LIST = 'order/UPDATA_ORDER_LIST'
+export const UPDATA_CURRENTPAGE = 'order/UPDATA_CURRENTPAGE'
+export const UPDATA_PAGESIZE = 'order/UPDATA_PAGESIZE'

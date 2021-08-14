@@ -1,0 +1,114 @@
+@import "~normalize.css";
+@import "~antd/dist/antd.css";
+
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+header,
+menu,
+section,
+p,
+input,
+td,
+th,
+ins {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol.li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    color: #666;
+    /* text-decoration: underline; */
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+    outline: nonde;
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+
+
+/* 全局样式 */
+body,
+textarea,
+select,
+input,
+button {
+    font-size: 12px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* 文字只显示一行，超出... */
+.text-nowrap {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar-track-piece {
+    background-color: #f8f8f8;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #dddddd;
+    background-clip: padding-box;
+    min-height: 28px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #bbb;
+}
+
+
+//antd layout
+.site-layout .site-layout-background {
+    background: #fff;
+}
