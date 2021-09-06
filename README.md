@@ -16,6 +16,8 @@
 
 # 项目展示
 
+[视频链接](https://www.bilibili.com/video/BV1Z34y1D7S9?pop_share=1)
+
 **首页**
 
 ![react-admin](https://github.com/Culaccino9/react-hwj-admin/blob/main/showPic/react-admin-goods.png)

@@ -2,9 +2,8 @@ import React, { memo, useEffect, useState } from 'react'
 
 import { useDispatch } from 'react-redux'
 
-import {getOrderListAction} from '../store'
+import { getOrderListAction } from '../store'
 import { edit } from '@/services/order'
-import { format } from 'moment'
 
 import { Modal, Form, Input, DatePicker, Select, message } from 'antd'
 import moment from 'moment'
@@ -51,18 +50,18 @@ export default memo(function WJOrderTableModal(props) {
         }
         !flag && message.error('您未做任何修改');
         if (flag) {
-            value.deliveryTime = format(value.deliveryTime._d.toString(), "yyyy-MM-dd hh:mm:ss")
-            value.orderTime = format(value.orderTime._d.toString(), "yyyy-MM-dd hh:mm:ss")
+            value.deliveryTime = value.deliveryTime.format("yyyy-MM-dd hh:mm:ss")
+            value.orderTime = value.orderTime.format("yyyy-MM-dd hh:mm:ss")
             value.id = modalData.id
-            value.orderAmount= modalData.orderAmount
+            value.orderAmount = modalData.orderAmount
             edit(value).then(res => {
-                if(res.data.code === 0){
+                if (res.data.code === 0) {
                     disptach(getOrderListAction())
                     handleOk()
                     message.success(res.data.msg)
                 }
             })
-            
+
         }
     }
     return (
